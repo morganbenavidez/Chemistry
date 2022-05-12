@@ -13,6 +13,8 @@ Index Map
 2.   Weight
 3.   State at 0 C
 4.   Series
+
+If a value doesn't exist, 'Unknown' is placed there instead.
 """
 
 periodic_table = {
@@ -102,6 +104,38 @@ periodic_table = {
     'Bi': [83, 'Bismuth', 208.98, 'Solid', 'Post-transition metals'],
     'Po': [84, 'Polonium', 209, 'Solid', 'Post-transition metals'],
     'At': [85, 'Astatine', 210, 'Solid', 'Metalloids'],
-    'Rn': [86, 'Radon', 222, 'Gas', 'Noble gases']
+    'Rn': [86, 'Radon', 222, 'Gas', 'Noble gases'],
+    'Fr': [87, 'Francium', 223, 'Solid', 'Alkali metals'],
+    'Ra': [88, 'Radium', 226, 'Solid', 'Alkaline earth metals'],
+    'Ac': [89, 'Actinium', 227, 'Solid', 'Actinoids'],
+    'Th': [90, 'Thorium', 232.04, 'Solid', 'Actinoids'],
+    'Pa': [91, 'Proctactinium', 231.04, 'Solid', 'Actinoids'],
+    'U': [92, 'Uranium', 238.03, 'Solid', 'Actinoids'],
+    'Np': [93, 'Neptunium', 237, 'Solid', 'Actinoids'],
+    'Pu': [94, 'Plutonium', 244, 'Solid', 'Actinoids'],
+    'Am': [95, 'Americium', 243, 'Solid', 'Actinoids'],
+    'Cm': [96, 'Curium', 247, 'Solid', 'Actinoids'],
+    'Bk': [97, 'Berkelium', 247, 'Solid', 'Actinoids'],
+    'Cf': [98, 'Californium', 251, 'Solid', 'Actinoids'],
+    'Es': [99, 'Einsteinium', 252, 'Solid', 'Actinoids'],
+    'Fm': [100, 'Fermium', 257, 'Solid', 'Actinoids'],
+    'Md': [101, 'Mendelevium', 258, 'Solid', 'Actinoids'],
+    'No': [102, 'Nobelium', 259, 'Solid', 'Actinoids'],
+    'Lr': [103, 'Lawrencium', 266, 'Solid', 'Actinoids'],
+    'Rf': [104, 'Rutherfordium', 267, 'Unknown', 'Transition metals'],
+    'Db': [105, 'Dubnium', 268, 'Unknown', 'Transition metals'],
+    'Sg': [106, 'Seaborgium', 269, 'Unknown', 'Transition metals'],
+    'Bh': [107, 'Bohrium', 270, 'Unknown', 'Transition metals'],
+    'Hs': [108, 'Hassium', 277, 'Unknown', 'Transition metals'],
+    'Mt': [109, 'Meitnerium', 278, 'Unknown', 'Unknown'],
+    'Ds': [110, 'Darmstadtium', 281, 'Unknown', 'Unknown'],
+    'Rg': [111, 'Roentgenium', 282, 'Unknown', 'Unknown'],
+    'Cn': [112, 'Copernicium', 285, 'Unknown', 'Unknown'],
+    'Nh': [113, 'Nihonium', 286, 'Unknown', 'Unknown'],
+    'Fl': [114, 'Flerovium', 289, 'Unknown', 'Unknown'],
+    'Mc': [115, 'Moscovium', 290, 'Unknown', 'Unknown'],
+    'Lv': [116, 'Livermorium', 293, 'Unknown', 'Unknown'],
+    'Ts': [117, 'Tennessine', 294, 'Unknown', 'Unknown'],
+    'Og': [118, 'Oganesson', 294, 'Unknown', 'Unknown']
 
 }
