@@ -15,6 +15,9 @@ Index Map
 4.   Series
 
 If a value doesn't exist, 'Unknown' is placed there instead.
+
+
+The list of values can have new data points added to it as I expand the library.
 """
 
 periodic_table = {
